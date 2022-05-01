@@ -87,10 +87,8 @@ class Page2(tk.Frame):
         
         button2 = ttk.Button(self, text = "Back", command = lambda: controller.show_frame(Page1))
         button2.grid(row = 20, column = 30, padx = 10, pady = 10)
-
-                    
-app = tkinterApp()
-app.mainloop()
+        
+subprocess.Popen(http://localhost:8891/notebooks/Fake%20News%20Demo.ipynb#)
 
 
 # In[ ]:
@@ -717,3 +715,5 @@ data.head(20)
 
 data.to_csv('liar_data.csv', index=False, encoding='utf-8')
 
+app = tkinterApp()
+app.mainloop()
